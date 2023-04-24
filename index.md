@@ -12,7 +12,7 @@ The next two examples are adding the strings Hello and my web server works, to m
 * The most important arguments for these methods are the number to create the server and /add-message?s=<String>.
 * The value that changes is the URI whenever we add a string. And it changes to the last string every time we add something.
 
-2. ![Image]()
+2. ![Image](Screenshot 2023-04-24 at 11.59.30 AM.png)
 * Since the server is already created, my Handler class in my StringServer file is called to update the string showing on the server.
 * The relevant argument in this step is the /add-message?s=<String> added to the URL, since it's what's going to be shown.
 * The URI changes once again to the last added string, so http://localhost:2847/add-message?s=my%20web%20server%20works.
