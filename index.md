@@ -22,7 +22,7 @@ The next two examples are adding the strings Hello and my web server works, to m
 
 The next picture shows a code with bugs.
 
-* ![Image]()
+* ![Image](Screenshot 2023-04-24 at 12.18.03 PM.png)
 
 1. A failure inducing test for the method would be:
 ```
