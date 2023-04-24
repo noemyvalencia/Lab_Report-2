@@ -43,7 +43,7 @@ public void testReversed3(){
 ```
 
 3. The output of both test look like the following:
-1[Image]()
+![Image](Screenshot 2023-04-24 at 4.21.30 PM.png)
 
 4. To fix the bug, here's the before and after:
 
