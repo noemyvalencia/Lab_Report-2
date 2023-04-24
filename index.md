@@ -3,7 +3,7 @@
 
 ## Part 1:
 After writing my web server called StringServer, my code looks like this:
-![Image]()
+![Image](Screenshot 2023-04-24 at 11.58.04 AM.png)
 
 The next two examples are adding the strings Hello and my web server works, to my server.
 
