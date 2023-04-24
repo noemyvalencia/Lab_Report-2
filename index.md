@@ -18,7 +18,7 @@ The next two examples are adding the strings Hello and my web server works, to m
 * The URI changes once again to the last added string, so http://localhost:2847/add-message?s=my%20web%20server%20works.
 ---
 
-## Part 2:
+## Part 2: ##
 
 The next picture shows a code with bugs.
 
