@@ -7,7 +7,7 @@ After writing my web server called StringServer, my code looks like this:
 
 The next two examples are adding the strings Hello and my web server works, to my server.
 
-1. ![Image]()
+1. ![Image](Screenshot 2023-04-24 at 11.58.43 AM.png)
 * When I create my server, Server.java and StringServer are called, then when I add /add-message?s=Hello, my Handler class is called.
 * The most important arguments for these methods are the number to create the server and /add-message?s=<String>.
 * The value that changes is the URI whenever we add a string. And it changes to the last string every time we add something.
