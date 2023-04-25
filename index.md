@@ -28,8 +28,8 @@ The next picture shows a code with bugs.
 ```
 @Test
 public void testReversed2(){
-  int[] in2 = {3, 0, 100, 25, 38};
-  assertArrayEquals(new int[]{38, 25, 100, 0, 3}, ArrayExamples.reversed(in2));
+    int[] in2 = {3, 0, 100, 25, 38};
+    assertArrayEquals(new int[]{38, 25, 100, 0, 3}, ArrayExamples.reversed(in2));
 }
 ```
 
@@ -37,8 +37,8 @@ public void testReversed2(){
 ```
 @Test
 public void testReversed3(){
-  int[] in3 = {0, 0, 0, 0};
-  assertArrayEquals(new int[]{0, 0, 0, 0}, ArrayExamples.reversed(in3));
+    int[] in3 = {0, 0, 0, 0};
+    assertArrayEquals(new int[]{0, 0, 0, 0}, ArrayExamples.reversed(in3));
 }
 ```
 
@@ -50,22 +50,22 @@ public void testReversed3(){
 * Before
 ```
 static int[] reversed(int[] arr){
-  int[] newArray = new int[arr.length];
-  for(int i = 0; i < arr.length; i += 1){
-    arr[i] = newArray[arr.length - i - 1];
-  }
-  return arr;
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1){
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
 }
 ```
 
 * After
 ```
 static int[] reversed(int[] arr){
-  int[] newArray = new int[arr.length];
-  for(int i = o; i < arr.length; i += 1){
-    newArray[i] = arr[arr.length - i - 1];
-  }
-  return newArray;
+    int[] newArray = new int[arr.length];
+    for(int i = o; i < arr.length; i += 1){
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
 }
 ```
 
