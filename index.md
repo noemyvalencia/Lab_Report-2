@@ -61,11 +61,11 @@ static int[] reversed(int[] arr){
 * After
 ```
 static int[] reversed(int[] arr){
-    int[] newArray = new int[arr.length];
-    for(int i = o; i < arr.length; i += 1){
-      newArray[i] = arr[arr.length - i - 1];
-    }
-    return newArray;
+&nbsp; int[] newArray = new int[arr.length];
+&nbsp; for(int i = 0; i < arr.length; i += 1){
+&nbsp; &nbsp; newArray[i] = arr[arr.length - i - 1];
+&nbsp; }
+&nbsp; return newArray;
 }
 ```
 
